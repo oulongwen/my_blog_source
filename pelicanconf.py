@@ -18,6 +18,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+THEME = '/Users/oulongwen/WebDev/virtualenvs/pelican-themes/Flex'
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
