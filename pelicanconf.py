@@ -3,8 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Longwen Ou'
-SITENAME = 'Blog'
-SITEURL = ''
+SITENAME = "Longwen's Blog"
+SITEURL = 'http://oulongwen.github.io'
+
+SITELOGO = '/images/profile.jpg'
+BROWSER_COLOR = '2196F3'
 
 PATH = 'content'
 
@@ -23,14 +26,20 @@ THEME = '/Users/oulongwen/WebDev/virtualenvs/pelican-themes/Flex'
 MAIN_MENU = True
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/oulongwen'),
+          ('stack-overflow', 'http://http://stackoverflow.com/users/7187106/longwen-ou'),)
+
+
+# Menu items
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+			 ('Tags', '/tags,html'),)
 
 DEFAULT_PAGINATION = 10
 
