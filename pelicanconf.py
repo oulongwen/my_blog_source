@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Longwen Ou'
 SITENAME = "Longwen's Blog"
-SITEURL = 'http://oulongwen.github.io'
+SITEURL = 'http://localhost:8000'
 
 SITELOGO = '/images/profile.jpg'
 BROWSER_COLOR = '2196F3'
@@ -21,7 +21,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-THEME = '/Users/oulongwen/WebDev/virtualenvs/pelican-themes/Flex'
+THEME = '/Users/oulongwen/WebDev/virtualenvs/my-theme/Flex'
 
 MAIN_MENU = True
 
@@ -33,13 +33,13 @@ MAIN_MENU = True
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/oulongwen'),
-          ('stack-overflow', 'http://http://stackoverflow.com/users/7187106/longwen-ou'),)
+          ('stack-overflow', 'http://stackoverflow.com/users/7187106/longwen-ou'),)
 
 
 # Menu items
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
-			 ('Tags', '/tags,html'),)
+			 ('Tags', '/tags.html'),)
 
 DEFAULT_PAGINATION = 10
 
