@@ -18,15 +18,15 @@ I use [atom-material-ui](https://atom.io/themes/atom-material-ui) UI theme and t
 
 There are a number of packages for python programming.
 
-* autocomplete-python: provides autocompletion for Python packages, variables, methods, and functions.
+* [autocomplete-python](https://atom.io/packages/autocomplete-python): provides autocompletion for Python packages, variables, methods, and functions.
 
-* linter: a base linter provider. It provides a top-level API to other packages to visualize errors and other kind-of messages, easily.
+* [linter](https://atom.io/packages/linter): a base linter provider. It provides a top-level API to other packages to visualize errors and other kind-of messages, easily.
 
-* linter-flake8: a flake8 provider for linter. It requires installation of flake8 python package.
+* [linter-flake8](https://atom.io/packages/linter-flake8): a flake8 provider for linter. It requires installation of [flake8](https://pypi.python.org/pypi/flake8) python package.
 
-* linter-pep8: provides an interface to pep8. It requires installation of pep8 python package.
+* [linter-pep8](https://atom.io/packages/linter-pep8): provides an interface to pep8. It requires installation of [pep8](https://pypi.python.org/pypi/pep8) python package.
 
-* python-tools: provides handy tools for developing Python code. It bring feature such as Goto Definition, Select String Contents, etc.
+* [python-tools](https://atom.io/packages/python-tools): provides handy tools for developing Python code. It bring feature such as Goto Definition, Select String Contents, etc.
 
 Now you'are ready to have some fun developing Python code with atom. Congrats :-)
 
