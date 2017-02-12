@@ -21,7 +21,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-THEME = '/Users/oulongwen/WebDev/virtualenvs/my-theme/Flex'
+THEME = '/Users/oulongwen/WebDev/projects/my-theme/Flex'
 
 MAIN_MENU = True
 
